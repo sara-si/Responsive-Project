@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Sara is a full-stack developer, based in Tehran, Iran"
+    />
+    <title>Front-end developer - Sara Sarabi Asl</title>
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
@@ -26,13 +30,80 @@
     ></script>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="src/images/logo.png"
+            alt="logo"
+            class="logo d-none d-md-block"
+          />
+        </a>
+        <ul>
+          <li class="active"><a href="/" title="Homepage">Home</a></li>
+          <li><a href="about.html" title="About Sara">About Me</a></li>
+          <li><a href="work.html" title="Sara's work">Work</a></li>
+          <li><a href="#contact" title="Contact Sara">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
     <div class="hero">
       <p>Hi, I am</p>
       <h1 class="mb-4">Sara Sarabi Asl</h1>
       <h2 class="mb-5">Front-end developer based in Tehran, Iran</h2>
       <div>
-        <a href="#" class="btn btn-branding">Contact Me</a>
+        <a href="#contact" class="btn btn-branding" title="Contact Sara"
+          >Contact Me</a
+        >
       </div>
     </div>
+    <div class="latest-projects">
+      <p class="text-center mt-3">Latest projects I've been working on</p>
+    </div>
+    <div class="projects text-center">
+      <div>
+        <img
+          src="src/images/german-course.png"
+          class="img-fluid p-2 m-4 shadow rounded"
+          alt="German Course Screenshot"
+        />
+        <img
+          src="src/images/weather-app.png"
+          class="img-fluid p-2 m-4 shadow rounded"
+          alt="Weather App Screenshot"
+        />
+      </div>
+      <a href="/work.html" class="btn btn-branding mb-5 mt-5">View My Work</a>
+    </div>
+    <footer>
+      <div class="contact-box text-center mb-5" id="contact">
+        <h3 class="mb-4">Let's get in touch!</h3>
+        <p>
+          You can contact me via
+          <a href="mailto:sara.sarabi.asl@gmail.com"
+            >sara.sarabi.asl@gmail.com</a
+          >
+        </p>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a
+          href="https://github.com/sara-si"
+          target="_blank"
+          title="GitHub Sara"
+        >
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/sara-sarabi"
+          target="_blank"
+          title="LinkeIn Sara"
+        >
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+        <a href="mailto:sara.sarabi.asl@gmail.com" title="Email Sara">
+          <i class="fa-regular fa-envelope"></i>
+        </a>
+      </div>
+    </footer>
   </body>
 </html>
