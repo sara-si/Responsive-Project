@@ -16,7 +16,8 @@ h4 {
   font-weight: bold;
 }
 h1 {
-  font-size: 96px;
+  font-size: 86px;
+  font-weight: normal;
 }
 
 p {
@@ -67,9 +68,7 @@ nav li.active a {
   font-size: 24px;
   line-height: 2;
 }
-.my-image {
-  margin-left: 100px;
-}
+
 .content-container {
   padding: 60px 20px;
 }
@@ -87,6 +86,7 @@ nav li.active a {
 .content-container img {
   border-radius: 20px;
   width: 400px;
+  margin-left: 100px;
 }
 
 .content {
@@ -129,7 +129,7 @@ nav li.active a {
 }
 
 .bg-title {
-  padding: 120px 20px 90px;
+  padding: 80px 20px;
   background: var(--secondary-color);
   text-align: center;
 }
@@ -153,8 +153,11 @@ nav li.active a {
   padding: 120px 60px;
 }
 
-.project-german {
-  color: rgb(231, 26, 26);
+.project-german,
+.project-weather {
+  color: rgba(231, 26, 26, 0.818);
+  font-family: "Secular One", sans-serif;
+  font-weight: normal;
   font-size: 48px;
 }
 .project-weather {
