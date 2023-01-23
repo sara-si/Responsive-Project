@@ -189,7 +189,7 @@ footer .contact-box {
   font-size: 24px;
 }
 
-footer .social-links a {
+footer .contact-links a {
   margin: 0 20px;
   color: var(--primary-color);
   background: var(--secondary-color);
@@ -200,7 +200,7 @@ footer .social-links a {
   margin-bottom: 50px;
 }
 
-footer .social-links a:hover {
+footer .contact-links a:hover {
   color: white;
   background: var(--primary-color);
 }
